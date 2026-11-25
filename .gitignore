@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+/scripts/envs/
+/scripts/external/
+/scripts/data/
+/scripts/models/

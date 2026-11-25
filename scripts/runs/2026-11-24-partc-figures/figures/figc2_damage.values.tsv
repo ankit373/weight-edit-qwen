@@ -1,0 +1,61 @@
+panel	label	value	source	field
+08 global-mmlu	editor 0 (c02) diff	0.4285714285714306	runs/2026-11-22-partc-run/scores/08/global-mmlu/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.all.acc.diff
+08 global-mmlu	editor 0 (c02) lo	-1.357142857142854	runs/2026-11-22-partc-run/scores/08/global-mmlu/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.all.acc.ci[0]
+08 global-mmlu	editor 0 (c02) hi	2.2857142857142847	runs/2026-11-22-partc-run/scores/08/global-mmlu/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.all.acc.ci[1]
+08 global-mmlu	editor 0 (c02) label	no damage shown	runs/2026-11-22-partc-run/scores/08/global-mmlu/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.damage.label
+08 global-mmlu	editor 1 diff	0.1428571428571459	runs/2026-11-22-partc-run/scores/08/global-mmlu/stats.json	comparisons.h5_a2_n5_vs_baseline.all.acc.diff
+08 global-mmlu	editor 1 lo	-3.4285714285714306	runs/2026-11-22-partc-run/scores/08/global-mmlu/stats.json	comparisons.h5_a2_n5_vs_baseline.all.acc.ci[0]
+08 global-mmlu	editor 1 hi	3.785714285714292	runs/2026-11-22-partc-run/scores/08/global-mmlu/stats.json	comparisons.h5_a2_n5_vs_baseline.all.acc.ci[1]
+08 global-mmlu	editor 1 label	no damage shown	runs/2026-11-22-partc-run/scores/08/global-mmlu/stats.json	comparisons.h5_a2_n5_vs_baseline.damage.label
+08 global-mmlu	editor 2 diff	-1.2142857142857153	runs/2026-11-22-partc-run/scores/08/global-mmlu/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.all.acc.diff
+08 global-mmlu	editor 2 lo	-2.7857142857142847	runs/2026-11-22-partc-run/scores/08/global-mmlu/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.all.acc.ci[0]
+08 global-mmlu	editor 2 hi	0.2857142857142847	runs/2026-11-22-partc-run/scores/08/global-mmlu/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.all.acc.ci[1]
+08 global-mmlu	editor 2 label	possible damage	runs/2026-11-22-partc-run/scores/08/global-mmlu/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.damage.label
+08 global-mmlu	editor 3 diff	-0.0714285714285694	runs/2026-11-22-partc-run/scores/08/global-mmlu/stats.json	comparisons.combo_a14_b14_vs_baseline.all.acc.diff
+08 global-mmlu	editor 3 lo	-0.7857142857142847	runs/2026-11-22-partc-run/scores/08/global-mmlu/stats.json	comparisons.combo_a14_b14_vs_baseline.all.acc.ci[0]
+08 global-mmlu	editor 3 hi	0.6428571428571459	runs/2026-11-22-partc-run/scores/08/global-mmlu/stats.json	comparisons.combo_a14_b14_vs_baseline.all.acc.ci[1]
+08 global-mmlu	editor 3 label	no damage shown	runs/2026-11-22-partc-run/scores/08/global-mmlu/stats.json	comparisons.combo_a14_b14_vs_baseline.damage.label
+2b global-mmlu	c06 diff	-0.4285714285714306	runs/2026-11-22-partc-run/scores/2b/global-mmlu/stats.json	comparisons.c06_vs_baseline.all.acc.diff
+2b global-mmlu	c06 lo	-1.6428571428571388	runs/2026-11-22-partc-run/scores/2b/global-mmlu/stats.json	comparisons.c06_vs_baseline.all.acc.ci[0]
+2b global-mmlu	c06 hi	0.7142857142857084	runs/2026-11-22-partc-run/scores/2b/global-mmlu/stats.json	comparisons.c06_vs_baseline.all.acc.ci[1]
+2b global-mmlu	c06 label	no damage shown	runs/2026-11-22-partc-run/scores/2b/global-mmlu/stats.json	comparisons.c06_vs_baseline.damage.label
+08 mgsm	editor 0 (c02) diff	-1.4285714285714306	runs/2026-11-22-partc-run/scores/08/mgsm/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.all.acc.diff
+08 mgsm	editor 0 (c02) lo	-5.142857142857141	runs/2026-11-22-partc-run/scores/08/mgsm/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.all.acc.ci[0]
+08 mgsm	editor 0 (c02) hi	2.2857142857142883	runs/2026-11-22-partc-run/scores/08/mgsm/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.all.acc.ci[1]
+08 mgsm	editor 0 (c02) label	possible damage	runs/2026-11-22-partc-run/scores/08/mgsm/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.damage.label
+08 mgsm	editor 1 diff	-5.714285714285715	runs/2026-11-22-partc-run/scores/08/mgsm/stats.json	comparisons.h5_a2_n5_vs_baseline.all.acc.diff
+08 mgsm	editor 1 lo	-9.714285714285715	runs/2026-11-22-partc-run/scores/08/mgsm/stats.json	comparisons.h5_a2_n5_vs_baseline.all.acc.ci[0]
+08 mgsm	editor 1 hi	-1.9999999999999982	runs/2026-11-22-partc-run/scores/08/mgsm/stats.json	comparisons.h5_a2_n5_vs_baseline.all.acc.ci[1]
+08 mgsm	editor 1 label	damage	runs/2026-11-22-partc-run/scores/08/mgsm/stats.json	comparisons.h5_a2_n5_vs_baseline.damage.label
+08 mgsm	editor 2 diff	0.0	runs/2026-11-22-partc-run/scores/08/mgsm/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.all.acc.diff
+08 mgsm	editor 2 lo	-3.7142857142857135	runs/2026-11-22-partc-run/scores/08/mgsm/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.all.acc.ci[0]
+08 mgsm	editor 2 hi	3.7142857142857117	runs/2026-11-22-partc-run/scores/08/mgsm/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.all.acc.ci[1]
+08 mgsm	editor 2 label	no damage shown	runs/2026-11-22-partc-run/scores/08/mgsm/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.damage.label
+08 mgsm	editor 3 diff	0.8571428571428577	runs/2026-11-22-partc-run/scores/08/mgsm/stats.json	comparisons.combo_a14_b14_vs_baseline.all.acc.diff
+08 mgsm	editor 3 lo	-2.571428571428573	runs/2026-11-22-partc-run/scores/08/mgsm/stats.json	comparisons.combo_a14_b14_vs_baseline.all.acc.ci[0]
+08 mgsm	editor 3 hi	4.285714285714288	runs/2026-11-22-partc-run/scores/08/mgsm/stats.json	comparisons.combo_a14_b14_vs_baseline.all.acc.ci[1]
+08 mgsm	editor 3 label	no damage shown	runs/2026-11-22-partc-run/scores/08/mgsm/stats.json	comparisons.combo_a14_b14_vs_baseline.damage.label
+2b mgsm	c06 diff	3.7142857142857153	runs/2026-11-22-partc-run/scores/2b/mgsm/stats.json	comparisons.c06_vs_baseline.all.acc.diff
+2b mgsm	c06 lo	-2.0	runs/2026-11-22-partc-run/scores/2b/mgsm/stats.json	comparisons.c06_vs_baseline.all.acc.ci[0]
+2b mgsm	c06 hi	9.142857142857146	runs/2026-11-22-partc-run/scores/2b/mgsm/stats.json	comparisons.c06_vs_baseline.all.acc.ci[1]
+2b mgsm	c06 label	no damage shown	runs/2026-11-22-partc-run/scores/2b/mgsm/stats.json	comparisons.c06_vs_baseline.damage.label
+08 ifeval	editor 0 (c02) diff	-5.050505050505052	runs/2026-11-22-partc-run/scores/08/ifeval/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.all.prompt_strict.diff
+08 ifeval	editor 0 (c02) lo	-9.293399582873267	runs/2026-11-22-partc-run/scores/08/ifeval/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.all.prompt_strict.ci[0]
+08 ifeval	editor 0 (c02) hi	-0.7984031936127778	runs/2026-11-22-partc-run/scores/08/ifeval/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.all.prompt_strict.ci[1]
+08 ifeval	editor 0 (c02) label	damage	runs/2026-11-22-partc-run/scores/08/ifeval/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.damage.label
+08 ifeval	editor 1 diff	-5.050505050505052	runs/2026-11-22-partc-run/scores/08/ifeval/stats.json	comparisons.h5_a2_n5_vs_baseline.all.prompt_strict.diff
+08 ifeval	editor 1 lo	-9.184081632653061	runs/2026-11-22-partc-run/scores/08/ifeval/stats.json	comparisons.h5_a2_n5_vs_baseline.all.prompt_strict.ci[0]
+08 ifeval	editor 1 hi	-0.816326530612244	runs/2026-11-22-partc-run/scores/08/ifeval/stats.json	comparisons.h5_a2_n5_vs_baseline.all.prompt_strict.ci[1]
+08 ifeval	editor 1 label	damage	runs/2026-11-22-partc-run/scores/08/ifeval/stats.json	comparisons.h5_a2_n5_vs_baseline.damage.label
+08 ifeval	editor 2 diff	-1.6161616161616124	runs/2026-11-22-partc-run/scores/08/ifeval/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.all.prompt_strict.diff
+08 ifeval	editor 2 lo	-5.2631578947368425	runs/2026-11-22-partc-run/scores/08/ifeval/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.all.prompt_strict.ci[0]
+08 ifeval	editor 2 hi	1.9686010032769559	runs/2026-11-22-partc-run/scores/08/ifeval/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.all.prompt_strict.ci[1]
+08 ifeval	editor 2 label	possible damage	runs/2026-11-22-partc-run/scores/08/ifeval/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.damage.label
+08 ifeval	editor 3 diff	-1.8181818181818201	runs/2026-11-22-partc-run/scores/08/ifeval/stats.json	comparisons.combo_a14_b14_vs_baseline.all.prompt_strict.diff
+08 ifeval	editor 3 lo	-5.2738336713995935	runs/2026-11-22-partc-run/scores/08/ifeval/stats.json	comparisons.combo_a14_b14_vs_baseline.all.prompt_strict.ci[0]
+08 ifeval	editor 3 hi	1.6261821801891454	runs/2026-11-22-partc-run/scores/08/ifeval/stats.json	comparisons.combo_a14_b14_vs_baseline.all.prompt_strict.ci[1]
+08 ifeval	editor 3 label	possible damage	runs/2026-11-22-partc-run/scores/08/ifeval/stats.json	comparisons.combo_a14_b14_vs_baseline.damage.label
+2b ifeval	c06 diff	-1.212121212121211	runs/2026-11-22-partc-run/scores/2b/ifeval/stats.json	comparisons.c06_vs_baseline.all.prompt_strict.diff
+2b ifeval	c06 lo	-4.408817635270545	runs/2026-11-22-partc-run/scores/2b/ifeval/stats.json	comparisons.c06_vs_baseline.all.prompt_strict.ci[0]
+2b ifeval	c06 hi	1.8442622950819683	runs/2026-11-22-partc-run/scores/2b/ifeval/stats.json	comparisons.c06_vs_baseline.all.prompt_strict.ci[1]
+2b ifeval	c06 label	possible damage	runs/2026-11-22-partc-run/scores/2b/ifeval/stats.json	comparisons.c06_vs_baseline.damage.label

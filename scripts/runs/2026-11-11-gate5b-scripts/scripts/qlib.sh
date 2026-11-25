@@ -1,0 +1,72 @@
+# part B queue helpers (copy of gate 4 eval qlib.sh, D10 power rule, 2B paths).
+# source from a queue script run at the project root, with `set -f`. set R (the run folder)
+# before calling step / cpu. the whole queue re-runs itself under caffeinate -i -d -m -s, so the
+# mac cannot idle-sleep between steps (gate 4 eval slip: idle sleep in a gap outside caffeinate).
+if [ -z "$G5B_CAFF" ]; then exec /usr/bin/caffeinate -i -d -m -s /usr/bin/env G5B_CAFF=1 /bin/sh "$0" "$@"; fi
+X=runs/2026-11-11-gate5b-scripts/scripts
+G1=runs/2026-11-05-gate1-baseline; G2=runs/2026-11-06-gate2-diagnosis
+S=runs/2026-11-06-gate3-scripts/scripts; G3=runs/2026-11-06-gate3-run
+MM=runs/2026-11-08-side-mmlu-redux
+SB=envs/run-sandboxed.sh; G=envs/gen/bin/python; P=envs/score/bin/python
+RUN="$SB $G -I -B $X/run_2b.py"  # any g3common-based script, on the 2B
+SEED2=100000                      # second sampling seed, as gate 4 eval (D8)
+RAND_SEEDS="1001 1002 1003"       # D7 random controls, fixed in this folder's README before any 2B result
+pct() { /usr/bin/pmset -g batt | grep -oE '[0-9]+%' | head -1 | tr -d '%'; }
+log() { echo "$* $(date -u +%FT%TZ)" >> $R/logs/steps.log; }
+
+# find_run <slug> [new]: the one runs/<date>-gate5b-<slug> folder. "new": make runs/<utc today>-gate5b-<slug>
+# when there is none. 0 matches (without new) or 2+ matches -> error.
+find_run() {
+  set +f; m=$(ls -d runs/[0-9]*-gate5b-$1 2>/dev/null); set -f
+  n=$(printf '%s' "$m" | grep -c .)
+  if [ "$n" = 1 ]; then echo "$m"; return 0; fi
+  if [ "$n" = 0 ] && [ "$2" = new ]; then d=runs/$(date -u +%F)-gate5b-$1; mkdir -p $d/logs; echo $d; return 0; fi
+  echo "find_run $1: $n folders match" >&2; return 1
+}
+
+wait_charge() {  # D10: under 20% (any charge state) hold until 25%
+  if [ "$(pct)" -lt 20 ]; then
+    log "HOLD battery $(pct)% before $1"
+    until [ "$(pct)" -ge 25 ]; do sleep 120; done
+    log "RESUME battery $(pct)% before $1"
+  fi
+}
+
+n_unique() { $SB $G -I -B $X/check_rows.py "$1" | sed -E 's/.*"n_unique": ([0-9]+).*/\1/'; }
+
+# step <name> <rows.jsonl or -> <expected rows or -> <cmd...>
+# done already (rows file has the expected count) -> skipped. battery stop (3) -> wait to 25% and
+# resume by id; sleep/wake (6) -> resume by id (max 5); memory (5), slow (4), any other -> halt.
+# after the step: row check (parse, no duplicate ids) and, if given, the expected count.
+step() {
+  local name out want tries  # keep caller vars (fix 2026-11-14: guard/screen read a clobbered $out)
+  name=$1; out=$2; want=$3; shift 3; tries=0
+  if [ "$out" != "-" ] && [ "$want" != "-" ] && [ -f "$out" ] && [ "$(n_unique $out)" -ge "$want" ]; then
+    log "SKIP $name (already $want rows)"; return 0
+  fi
+  while :; do
+    wait_charge $name
+    sh $X/run_watch.sh $R $name $R/logs/$name.log "$@"; rc=$?
+    if [ "$rc" = 0 ]; then break; fi
+    tries=$((tries+1))
+    if [ "$rc" = 3 ] || { [ "$rc" = 6 ] && [ $tries -le 5 ]; }; then
+      log "RESTART $name after rc=$rc (try $tries)"
+      [ "$rc" = 3 ] && { until [ "$(pct)" -ge 25 ]; do sleep 120; done; }
+      continue
+    fi
+    log "HALT queue at $name rc=$rc"; exit $rc
+  done
+  if [ "$out" != "-" ]; then
+    $SB $G -I -B $X/check_rows.py $out >> $R/logs/steps.log 2>&1 || { log "HALT queue: row check failed for $out"; exit 9; }
+    if [ "$want" != "-" ] && [ "$(n_unique $out)" != "$want" ]; then log "HALT queue: $out has $(n_unique $out) rows, want $want"; exit 9; fi
+  fi
+}
+
+# cpu <name> <cmd...>: no model weights, output to logs/<name>.log, halt on non-zero
+cpu() {
+  local name
+  name=$1; shift
+  log "CPU $name start"
+  "$@" >> $R/logs/$name.log 2>&1 || { log "HALT queue: cpu step $name failed"; exit 8; }
+  log "CPU $name end"
+}

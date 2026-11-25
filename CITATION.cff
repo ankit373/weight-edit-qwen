@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this code or the weight diffs, please cite it as below."
+title: "Blind weight edits for language confusion in Qwen3.5-0.8B and Qwen3.5-2B"
+type: software
+authors:
+  - family-names: "Jha"
+    given-names: "Ankit"
+    orcid: "https://orcid.org/0009-0005-3901-0315"
+version: "1.0.0"
+date-released: "TODO-on-release"
+license: "Apache-2.0"
+repository-code: "https://github.com/ankit373/weight-edit-qwen"
+abstract: >-
+  Code for a study that asks whether Claude Opus 5.5, acting as a blind
+  editor, can cut cross-lingual language confusion in Qwen3.5-0.8B and
+  Qwen3.5-2B by editing their weights directly, with no training. Five
+  editor runs (four on the 0.8B model, one on the 2B model) are compared
+  with published training-free fixes on the Language Confusion Benchmark.
+  The frozen edits are also checked on two other cross-lingual prompt
+  sets, on Global-MMLU, MGSM and IFEval, under greedy decoding and longer
+  answers, and with a blind LLM judge.
+keywords:
+  - language confusion
+  - model editing
+  - weight diff
+  - multilingual
+  - Qwen3.5
+references:
+  - type: article
+    title: "Understanding and Mitigating Language Confusion in LLMs"
+    authors:
+      - family-names: "Marchisio"
+        given-names: "Kelly"
+      - family-names: "Ko"
+        given-names: "Wei-Yin"
+      - family-names: "Bérard"
+        given-names: "Alexandre"
+      - family-names: "Dehaze"
+        given-names: "Théo"
+      - family-names: "Ruder"
+        given-names: "Sebastian"
+    year: 2024
+    identifiers:
+      - type: other
+        value: "arXiv:2406.20052"

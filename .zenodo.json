@@ -1,0 +1,34 @@
+{
+  "title": "Blind weight edits for language confusion in Qwen3.5-0.8B and Qwen3.5-2B",
+  "upload_type": "software",
+  "description": "Code for a study that asks whether Claude Opus 5.5, acting as a blind editor, can cut cross-lingual language confusion in Qwen3.5-0.8B and Qwen3.5-2B by editing their weights directly, with no training. Five editor runs (four on the 0.8B model, one on the 2B model) are compared with published training-free fixes on the Language Confusion Benchmark (Marchisio et al., arXiv:2406.20052). The frozen edits are also checked on two other cross-lingual prompt sets, on Global-MMLU, MGSM and IFEval, under greedy decoding and longer answers, and with a blind LLM judge.",
+  "creators": [
+    {
+      "name": "Jha, Ankit",
+      "orcid": "0009-0005-3901-0315"
+    }
+  ],
+  "license": "Apache-2.0",
+  "publication_date": "TODO-on-release",
+  "version": "1.0.0",
+  "keywords": [
+    "language confusion",
+    "model editing",
+    "weight diff",
+    "multilingual",
+    "Qwen3.5"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "arXiv:2406.20052",
+      "relation": "references",
+      "scheme": "arxiv"
+    },
+    {
+      "identifier": "https://huggingface.co/datasets/ankit373/qwen3.5-langconf-edit-outputs",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    }
+  ],
+  "language": "eng"
+}

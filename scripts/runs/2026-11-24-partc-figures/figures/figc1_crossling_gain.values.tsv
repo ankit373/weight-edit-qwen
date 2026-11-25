@@ -1,0 +1,109 @@
+panel	label	value	source	field
+08 m-arenahard	ReCoVeR alpha 0.03 diff	3.8513119533527913	runs/2026-11-22-partc-run/scores/08/m-arenahard/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.diff
+08 m-arenahard	ReCoVeR alpha 0.03 lo	0.2857142857142776	runs/2026-11-22-partc-run/scores/08/m-arenahard/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.ci[0]
+08 m-arenahard	ReCoVeR alpha 0.03 hi	7.839285714285722	runs/2026-11-22-partc-run/scores/08/m-arenahard/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.ci[1]
+08 m-arenahard	instruction at end diff	-0.5539358600583171	runs/2026-11-22-partc-run/scores/08/m-arenahard/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.diff
+08 m-arenahard	instruction at end lo	-3.317134159894956	runs/2026-11-22-partc-run/scores/08/m-arenahard/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.ci[0]
+08 m-arenahard	instruction at end hi	2.142857142857153	runs/2026-11-22-partc-run/scores/08/m-arenahard/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.ci[1]
+08 m-arenahard	editor 0 (c02) diff	5.1341107871720055	runs/2026-11-22-partc-run/scores/08/m-arenahard/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.unscored_drop.lpr.diff
+08 m-arenahard	editor 0 (c02) lo	1.2558946793002903	runs/2026-11-22-partc-run/scores/08/m-arenahard/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.unscored_drop.lpr.ci[0]
+08 m-arenahard	editor 0 (c02) hi	9.571428571428584	runs/2026-11-22-partc-run/scores/08/m-arenahard/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.unscored_drop.lpr.ci[1]
+08 m-arenahard	editor 1 diff	2.443148688046662	runs/2026-11-22-partc-run/scores/08/m-arenahard/stats.json	comparisons.h5_a2_n5_vs_baseline.unscored_drop.lpr.diff
+08 m-arenahard	editor 1 lo	-1.2732987915662908	runs/2026-11-22-partc-run/scores/08/m-arenahard/stats.json	comparisons.h5_a2_n5_vs_baseline.unscored_drop.lpr.ci[0]
+08 m-arenahard	editor 1 hi	6.696865889212817	runs/2026-11-22-partc-run/scores/08/m-arenahard/stats.json	comparisons.h5_a2_n5_vs_baseline.unscored_drop.lpr.ci[1]
+08 m-arenahard	editor 2 diff	4.4314868804664655	runs/2026-11-22-partc-run/scores/08/m-arenahard/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.unscored_drop.lpr.diff
+08 m-arenahard	editor 2 lo	1.8391369047618853	runs/2026-11-22-partc-run/scores/08/m-arenahard/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.unscored_drop.lpr.ci[0]
+08 m-arenahard	editor 2 hi	7.151603498542286	runs/2026-11-22-partc-run/scores/08/m-arenahard/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.unscored_drop.lpr.ci[1]
+08 m-arenahard	editor 3 diff	3.8396501457725805	runs/2026-11-22-partc-run/scores/08/m-arenahard/stats.json	comparisons.combo_a14_b14_vs_baseline.unscored_drop.lpr.diff
+08 m-arenahard	editor 3 lo	0.6880466472303226	runs/2026-11-22-partc-run/scores/08/m-arenahard/stats.json	comparisons.combo_a14_b14_vs_baseline.unscored_drop.lpr.ci[0]
+08 m-arenahard	editor 3 hi	7.25216123716567	runs/2026-11-22-partc-run/scores/08/m-arenahard/stats.json	comparisons.combo_a14_b14_vs_baseline.unscored_drop.lpr.ci[1]
+08 xl-alpacaeval	ReCoVeR alpha 0.03 diff	7.578988116985926	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/08/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.diff
+08 xl-alpacaeval	ReCoVeR alpha 0.03 lo	4.102221372001092	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/08/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.ci[0]
+08 xl-alpacaeval	ReCoVeR alpha 0.03 hi	11.47065846130797	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/08/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.ci[1]
+08 xl-alpacaeval	instruction at end diff	2.0068027210884196	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/08/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.diff
+08 xl-alpacaeval	instruction at end lo	-0.4516106572414802	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/08/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.ci[0]
+08 xl-alpacaeval	instruction at end hi	4.566770186335398	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/08/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.ci[1]
+08 xl-alpacaeval	editor 0 (c02) diff	8.600962123980025	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/08/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.unscored_drop.lpr.diff
+08 xl-alpacaeval	editor 0 (c02) lo	5.30102855548451	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/08/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.unscored_drop.lpr.ci[0]
+08 xl-alpacaeval	editor 0 (c02) hi	12.17990130834944	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/08/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.unscored_drop.lpr.ci[1]
+08 xl-alpacaeval	editor 1 diff	1.5259582093706996	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/08/stats.json	comparisons.h5_a2_n5_vs_baseline.unscored_drop.lpr.diff
+08 xl-alpacaeval	editor 1 lo	-1.2907747017159603	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/08/stats.json	comparisons.h5_a2_n5_vs_baseline.unscored_drop.lpr.ci[0]
+08 xl-alpacaeval	editor 1 hi	4.520706871327359	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/08/stats.json	comparisons.h5_a2_n5_vs_baseline.unscored_drop.lpr.ci[1]
+08 xl-alpacaeval	editor 2 diff	4.318031560450265	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/08/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.unscored_drop.lpr.diff
+08 xl-alpacaeval	editor 2 lo	2.1518171999494173	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/08/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.unscored_drop.lpr.ci[0]
+08 xl-alpacaeval	editor 2 hi	6.614118944138318	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/08/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.unscored_drop.lpr.ci[1]
+08 xl-alpacaeval	editor 3 diff	5.229222123632056	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/08/stats.json	comparisons.combo_a14_b14_vs_baseline.unscored_drop.lpr.diff
+08 xl-alpacaeval	editor 3 lo	2.680072028811523	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/08/stats.json	comparisons.combo_a14_b14_vs_baseline.unscored_drop.lpr.ci[0]
+08 xl-alpacaeval	editor 3 hi	7.758161960436344	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/08/stats.json	comparisons.combo_a14_b14_vs_baseline.unscored_drop.lpr.ci[1]
+08 lcb-greedy	ReCoVeR alpha 0.03 diff	31.22775877533877	runs/2026-11-22-partc-run/scores/08/lcb-greedy/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.diff
+08 lcb-greedy	ReCoVeR alpha 0.03 lo	19.231137417621824	runs/2026-11-22-partc-run/scores/08/lcb-greedy/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.ci[0]
+08 lcb-greedy	ReCoVeR alpha 0.03 hi	43.6879428866168	runs/2026-11-22-partc-run/scores/08/lcb-greedy/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.ci[1]
+08 lcb-greedy	instruction at end diff	14.691974067279887	runs/2026-11-22-partc-run/scores/08/lcb-greedy/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.diff
+08 lcb-greedy	instruction at end lo	8.757261118733208	runs/2026-11-22-partc-run/scores/08/lcb-greedy/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.ci[0]
+08 lcb-greedy	instruction at end hi	21.394723178255376	runs/2026-11-22-partc-run/scores/08/lcb-greedy/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.ci[1]
+08 lcb-greedy	editor 0 (c02) diff	29.903850457972155	runs/2026-11-22-partc-run/scores/08/lcb-greedy/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.unscored_drop.lpr.diff
+08 lcb-greedy	editor 0 (c02) lo	19.235133688402353	runs/2026-11-22-partc-run/scores/08/lcb-greedy/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.unscored_drop.lpr.ci[0]
+08 lcb-greedy	editor 0 (c02) hi	41.35923214176866	runs/2026-11-22-partc-run/scores/08/lcb-greedy/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.unscored_drop.lpr.ci[1]
+08 lcb-greedy	editor 1 diff	19.646019441047144	runs/2026-11-22-partc-run/scores/08/lcb-greedy/stats.json	comparisons.h5_a2_n5_vs_baseline.unscored_drop.lpr.diff
+08 lcb-greedy	editor 1 lo	11.584189629664467	runs/2026-11-22-partc-run/scores/08/lcb-greedy/stats.json	comparisons.h5_a2_n5_vs_baseline.unscored_drop.lpr.ci[0]
+08 lcb-greedy	editor 1 hi	28.229803063851392	runs/2026-11-22-partc-run/scores/08/lcb-greedy/stats.json	comparisons.h5_a2_n5_vs_baseline.unscored_drop.lpr.ci[1]
+08 lcb-greedy	editor 2 diff	18.582847424684147	runs/2026-11-22-partc-run/scores/08/lcb-greedy/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.unscored_drop.lpr.diff
+08 lcb-greedy	editor 2 lo	11.046831742014207	runs/2026-11-22-partc-run/scores/08/lcb-greedy/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.unscored_drop.lpr.ci[0]
+08 lcb-greedy	editor 2 hi	26.695107383496303	runs/2026-11-22-partc-run/scores/08/lcb-greedy/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.unscored_drop.lpr.ci[1]
+08 lcb-greedy	editor 3 diff	17.624905129224942	runs/2026-11-22-partc-run/scores/08/lcb-greedy/stats.json	comparisons.combo_a14_b14_vs_baseline.unscored_drop.lpr.diff
+08 lcb-greedy	editor 3 lo	10.058254547325816	runs/2026-11-22-partc-run/scores/08/lcb-greedy/stats.json	comparisons.combo_a14_b14_vs_baseline.unscored_drop.lpr.ci[0]
+08 lcb-greedy	editor 3 hi	26.100269213685444	runs/2026-11-22-partc-run/scores/08/lcb-greedy/stats.json	comparisons.combo_a14_b14_vs_baseline.unscored_drop.lpr.ci[1]
+08 lcb-long	ReCoVeR alpha 0.03 diff	30.07978191276512	runs/2026-11-22-partc-run/scores/08/lcb-long/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.diff
+08 lcb-long	ReCoVeR alpha 0.03 lo	18.092830882352963	runs/2026-11-22-partc-run/scores/08/lcb-long/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.ci[0]
+08 lcb-long	ReCoVeR alpha 0.03 hi	42.868597438975584	runs/2026-11-22-partc-run/scores/08/lcb-long/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.ci[1]
+08 lcb-long	instruction at end diff	12.673319327731086	runs/2026-11-22-partc-run/scores/08/lcb-long/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.diff
+08 lcb-long	instruction at end lo	5.3100490196078445	runs/2026-11-22-partc-run/scores/08/lcb-long/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.ci[0]
+08 lcb-long	instruction at end hi	20.370010504201673	runs/2026-11-22-partc-run/scores/08/lcb-long/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.ci[1]
+08 lcb-long	editor 0 (c02) diff	27.44972989195677	runs/2026-11-22-partc-run/scores/08/lcb-long/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.unscored_drop.lpr.diff
+08 lcb-long	editor 0 (c02) lo	16.33035714285715	runs/2026-11-22-partc-run/scores/08/lcb-long/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.unscored_drop.lpr.ci[0]
+08 lcb-long	editor 0 (c02) hi	39.4812550020008	runs/2026-11-22-partc-run/scores/08/lcb-long/stats.json	comparisons.c02_nb_L15u1047_k2_vs_baseline.unscored_drop.lpr.ci[1]
+08 lcb-long	editor 1 diff	21.040416166466592	runs/2026-11-22-partc-run/scores/08/lcb-long/stats.json	comparisons.h5_a2_n5_vs_baseline.unscored_drop.lpr.diff
+08 lcb-long	editor 1 lo	11.470356892757103	runs/2026-11-22-partc-run/scores/08/lcb-long/stats.json	comparisons.h5_a2_n5_vs_baseline.unscored_drop.lpr.ci[0]
+08 lcb-long	editor 1 hi	31.118009703881572	runs/2026-11-22-partc-run/scores/08/lcb-long/stats.json	comparisons.h5_a2_n5_vs_baseline.unscored_drop.lpr.ci[1]
+08 lcb-long	editor 2 diff	14.63935574229695	runs/2026-11-22-partc-run/scores/08/lcb-long/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.unscored_drop.lpr.diff
+08 lcb-long	editor 2 lo	7.930590986394552	runs/2026-11-22-partc-run/scores/08/lcb-long/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.unscored_drop.lpr.ci[0]
+08 lcb-long	editor 2 hi	21.312056072428984	runs/2026-11-22-partc-run/scores/08/lcb-long/stats.json	comparisons.mix21_22b0.75_23b0.5_vs_baseline.unscored_drop.lpr.ci[1]
+08 lcb-long	editor 3 diff	18.040966386554622	runs/2026-11-22-partc-run/scores/08/lcb-long/stats.json	comparisons.combo_a14_b14_vs_baseline.unscored_drop.lpr.diff
+08 lcb-long	editor 3 lo	9.889705882352956	runs/2026-11-22-partc-run/scores/08/lcb-long/stats.json	comparisons.combo_a14_b14_vs_baseline.unscored_drop.lpr.ci[0]
+08 lcb-long	editor 3 hi	26.495623249299733	runs/2026-11-22-partc-run/scores/08/lcb-long/stats.json	comparisons.combo_a14_b14_vs_baseline.unscored_drop.lpr.ci[1]
+2b m-arenahard	ReCoVeR alpha 0.03 diff	0.142857142857153	runs/2026-11-22-partc-run/scores/2b/m-arenahard/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.diff
+2b m-arenahard	ReCoVeR alpha 0.03 lo	-1.5714285714285694	runs/2026-11-22-partc-run/scores/2b/m-arenahard/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.ci[0]
+2b m-arenahard	ReCoVeR alpha 0.03 hi	1.8571428571428612	runs/2026-11-22-partc-run/scores/2b/m-arenahard/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.ci[1]
+2b m-arenahard	instruction at end diff	1.5655976676384853	runs/2026-11-22-partc-run/scores/2b/m-arenahard/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.diff
+2b m-arenahard	instruction at end lo	-0.5714285714285694	runs/2026-11-22-partc-run/scores/2b/m-arenahard/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.ci[0]
+2b m-arenahard	instruction at end hi	3.7055393586005607	runs/2026-11-22-partc-run/scores/2b/m-arenahard/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.ci[1]
+2b m-arenahard	c06 diff	0.5685131195335202	runs/2026-11-22-partc-run/scores/2b/m-arenahard/stats.json	comparisons.c06_vs_baseline.unscored_drop.lpr.diff
+2b m-arenahard	c06 lo	-1.4402393100097128	runs/2026-11-22-partc-run/scores/2b/m-arenahard/stats.json	comparisons.c06_vs_baseline.unscored_drop.lpr.ci[0]
+2b m-arenahard	c06 hi	2.7142857142857224	runs/2026-11-22-partc-run/scores/2b/m-arenahard/stats.json	comparisons.c06_vs_baseline.unscored_drop.lpr.ci[1]
+2b xl-alpacaeval	ReCoVeR alpha 0.03 diff	0.71537310576403	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/2b/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.diff
+2b xl-alpacaeval	ReCoVeR alpha 0.03 lo	-1.7353378567520483	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/2b/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.ci[0]
+2b xl-alpacaeval	ReCoVeR alpha 0.03 hi	3.345813081884274	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/2b/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.ci[1]
+2b xl-alpacaeval	instruction at end diff	0.7379473528542064	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/2b/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.diff
+2b xl-alpacaeval	instruction at end lo	-1.0159716060337023	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/2b/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.ci[0]
+2b xl-alpacaeval	instruction at end hi	2.578058397271972	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/2b/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.ci[1]
+2b xl-alpacaeval	c06 diff	1.7317361727299811	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/2b/stats.json	comparisons.c06_vs_baseline.unscored_drop.lpr.diff
+2b xl-alpacaeval	c06 lo	-0.3960355881482986	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/2b/stats.json	comparisons.c06_vs_baseline.unscored_drop.lpr.ci[0]
+2b xl-alpacaeval	c06 hi	4.010906573413377	runs/2026-11-22-partc-run/scores/nc-sa/xl-alpacaeval/2b/stats.json	comparisons.c06_vs_baseline.unscored_drop.lpr.ci[1]
+2b lcb-greedy	ReCoVeR alpha 0.03 diff	20.259931417623775	runs/2026-11-22-partc-run/scores/2b/lcb-greedy/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.diff
+2b lcb-greedy	ReCoVeR alpha 0.03 lo	10.543505321752733	runs/2026-11-22-partc-run/scores/2b/lcb-greedy/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.ci[0]
+2b lcb-greedy	ReCoVeR alpha 0.03 hi	31.42070824189421	runs/2026-11-22-partc-run/scores/2b/lcb-greedy/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.ci[1]
+2b lcb-greedy	instruction at end diff	9.288386801643554	runs/2026-11-22-partc-run/scores/2b/lcb-greedy/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.diff
+2b lcb-greedy	instruction at end lo	4.341736694677891	runs/2026-11-22-partc-run/scores/2b/lcb-greedy/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.ci[0]
+2b lcb-greedy	instruction at end hi	15.102521225499911	runs/2026-11-22-partc-run/scores/2b/lcb-greedy/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.ci[1]
+2b lcb-greedy	c06 diff	13.834393092158265	runs/2026-11-22-partc-run/scores/2b/lcb-greedy/stats.json	comparisons.c06_vs_baseline.unscored_drop.lpr.diff
+2b lcb-greedy	c06 lo	3.570474026500767	runs/2026-11-22-partc-run/scores/2b/lcb-greedy/stats.json	comparisons.c06_vs_baseline.unscored_drop.lpr.ci[0]
+2b lcb-greedy	c06 hi	25.567842608225302	runs/2026-11-22-partc-run/scores/2b/lcb-greedy/stats.json	comparisons.c06_vs_baseline.unscored_drop.lpr.ci[1]
+2b lcb-long	ReCoVeR alpha 0.03 diff	15.622498999599841	runs/2026-11-22-partc-run/scores/2b/lcb-long/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.diff
+2b lcb-long	ReCoVeR alpha 0.03 lo	5.769395258103236	runs/2026-11-22-partc-run/scores/2b/lcb-long/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.ci[0]
+2b lcb-long	ReCoVeR alpha 0.03 hi	27.18010329131653	runs/2026-11-22-partc-run/scores/2b/lcb-long/stats.json	comparisons.recover_vs_baseline.unscored_drop.lpr.ci[1]
+2b lcb-long	instruction at end diff	-0.5802320928371216	runs/2026-11-22-partc-run/scores/2b/lcb-long/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.diff
+2b lcb-long	instruction at end lo	-7.533600940376148	runs/2026-11-22-partc-run/scores/2b/lcb-long/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.ci[0]
+2b lcb-long	instruction at end hi	6.391075180072037	runs/2026-11-22-partc-run/scores/2b/lcb-long/stats.json	comparisons.instr_end_vs_baseline.unscored_drop.lpr.ci[1]
+2b lcb-long	c06 diff	7.698579431772728	runs/2026-11-22-partc-run/scores/2b/lcb-long/stats.json	comparisons.c06_vs_baseline.unscored_drop.lpr.diff
+2b lcb-long	c06 lo	-2.608470267477622	runs/2026-11-22-partc-run/scores/2b/lcb-long/stats.json	comparisons.c06_vs_baseline.unscored_drop.lpr.ci[0]
+2b lcb-long	c06 hi	18.851890756302513	runs/2026-11-22-partc-run/scores/2b/lcb-long/stats.json	comparisons.c06_vs_baseline.unscored_drop.lpr.ci[1]
